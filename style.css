@@ -1,0 +1,344 @@
+/* banner section css start */
+body{
+  margin: 0;
+}
+.banner_section {
+  background-image: url(resources/Banner-Image.png);
+  border-radius: 10px 10px;
+  /* margin: auto; */
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-right: 50px;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 600px;
+  width: 1320;
+}
+.header_container {
+  padding-top: 150px;
+  /* margin-left: 50px; */
+  margin: auto;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(19, 4, 19),
+    rgba(255, 192, 203, 0)
+  );
+
+  background-repeat: no-repeat;
+  height: 450px;
+  width: 1320;
+}
+.header_name {
+  font-family: "Merriweather", serif;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  color: white;
+  font-size: 32px;
+  font-weight: 400;
+}
+.header_title {
+  font-family: "Merriweather", serif;
+  margin-top: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 72px;
+  margin-bottom: 0;
+}
+/* banner section end */
+
+/* discount section css start */
+.discount_section{
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.amount_off{
+  font-family: 'Inter', sans-serif;
+  color: red;
+  font-weight: 600;
+  font-size: 88px;
+  margin-bottom: 50px;
+}
+.discount_content{
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: red;
+
+}
+.discount_categories{
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  color: black;
+  margin-top: 5px;
+}
+.new_year_img{
+  width: 800px;
+  height: 500px;
+}
+/* main body banner section css */
+.banner_section_2 {
+  background-image: url(resources/Vectorrr.png);
+  
+  /* margin: auto; */
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-right: 50px;
+  background-repeat: no-repeat;
+  text-align: center;
+  /* height: 600px; */
+  width: 1320;
+}
+.banner_container{
+  background-image: linear-gradient(
+    to right,
+    rgb(19, 4, 19),
+    rgba(255, 192, 203, 0.123)
+  );
+  padding-top: 20px;
+  padding-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.banner_btn{
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.banner_content{
+  width: 50%;
+  text-align: left;
+}
+.banner_img{
+width: 50%;
+}
+.header_content{
+  color: white;
+}
+/* adderess sectioncss */
+.address_container{
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255, 224, 224),
+    rgba(255, 192, 203, 0.123)
+  );
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 1320;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-right: 50px;
+  font-family: 'Inter', sans-serif;
+  
+}
+.address_content{
+  color: red;
+
+}
+/* offer section css */
+.offer_container{
+  font-family: "Merriweather", serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
+  
+  margin-right: 50px;
+  padding: 50px;
+}
+.elisp_img{
+  
+ 
+  width: 33.33%;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.offer_content{
+  font-family: "Merriweather", serif;
+  width: 33.33%;
+}
+.offer_heading{
+  color: red;
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-size: 20px;
+  
+}
+.offer_title{
+  font-family: "Merriweather", serif;
+  font-weight: 600;
+  font-size: 32px;
+}
+.holyday_sale_container{
+  text-align: center;
+  width: 50%;
+  font-family: "Merriweather", serif;
+  margin: auto;
+  
+  
+}
+.holidays_content{
+ 
+  font-family: "Merriweather", serif;
+  font-weight: 600;
+  font-size: 32px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.holidays_container{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.holyday_img_1{
+  width: 674px;
+  height: 570px;
+}
+.holyday_img_2{
+ 
+  right:450px; 
+  position:absolute;
+  /* top:90px; */
+   
+}
+.holyday_img_3{
+  margin-left:auto;
+    margin-right:auto;
+    position:relative;
+  width: 429px;
+  height: 427px;
+}
+.hr_line{
+  position: relative;
+  top: 20px;
+  border: none;
+  height: 50px;
+  width: 1320;
+  margin-left: 50px;
+  margin-right: 50px;
+  background: red;
+  /* margin-bottom: 50px; */
+}
+/* portfolio section css */
+.portfolio_section{
+  
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.portfolio_content{
+  width: 50%;
+  
+  margin-top: 50px;
+}
+.portfolio_gallery{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+/* subscribe section css */
+.subscribe_container{
+  text-align: center;
+  vertical-align: auto;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+ padding-left: 20%;
+padding-right: 20%;
+  background-color: rgb(255, 248, 239);
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 10px;
+}
+.subscription-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+.subscribe-btn {
+  padding: 8px 16px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.subscribe-btn:hover {
+  background-color: white;
+  color: red;
+}
+/* footercss start */
+.container_footer{
+  background-color: black;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.footer_container{
+  
+  margin-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_content{
+  padding-right: 5px;
+}
+.footer_icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.horizontal_line{
+  
+  border: none;
+  height: 2px;
+  width: 1320;
+  margin-left: 50px;
+  margin-right: 50px;
+  background: rgb(48, 48, 48);
+  
+}
+.social_icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social_icons img{
+  padding-left: 15px;
+}
+.footer_content{
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
